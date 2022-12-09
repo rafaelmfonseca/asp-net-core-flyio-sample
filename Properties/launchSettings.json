@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "asp-net-core-flyio-sample": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:5686;http://localhost:5687"
+    }
+  }
+}

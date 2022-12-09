@@ -1,0 +1,15 @@
+# fly.toml file generated for asp-net-core-flyio-sample on 2022-12-09T00:16:34-03:00
+app = "asp-net-core-flyio-sample"
+
+[[services]]
+  [[services.ports]]
+    handlers = ["http"]
+    internal_port = 8080
+    port = 80
+    protocol = "tcp"
+
+  [[services.ports]]
+    handlers = ["tls", "http"]
+    internal_port = 8080
+    port = 443
+    protocol = "tcp"
