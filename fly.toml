@@ -1,7 +1,9 @@
-# fly.toml file generated for asp-net-core-flyio-sample on 2022-12-09T00:16:34-03:00
-app = "asp-net-core-flyio-sample"
+# fly.toml file generated for winter-surf-8470 on 2022-12-09T13:39:46-03:00
+
+app = "winter-surf-8470"
 
 [[services]]
+
   [[services.ports]]
     handlers = ["http"]
     internal_port = 8080

@@ -18,5 +18,5 @@ WORKDIR ./app
 COPY --from=build /app/release ./
 
 EXPOSE 8080
-ENV ASPNETCORE_URLS=http://0.0.0.0:8080
+ENV ASPNETCORE_URLS=http://*:8080
 ENTRYPOINT [ "dotnet", "asp-net-core-flyio-sample.dll"]
